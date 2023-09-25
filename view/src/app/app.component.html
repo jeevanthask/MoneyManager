@@ -34,10 +34,10 @@
         <ul class="flex flex-row font-medium mt-0 mr-6 space-x-8 text-sm">
           <li>
             <a
-              href="#"
+              routerLink="/add-category"
               class="text-gray-900 dark:text-white hover:underline"
               aria-current="page"
-              >Home</a
+              >Add Category</a
             >
           </li>
           <li>
@@ -59,4 +59,10 @@
       </div>
     </div>
   </nav>
+
+  <div class="row">
+    <div class="col-md-12">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
 </div>
